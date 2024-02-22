@@ -142,7 +142,7 @@
    display: flex;
    justify-content: space-between; /* Adjust as needed */
    align-items: flex-start; /* Adjust as needed */
-   /*flex-wrap: wrap;*/
+   flex-wrap: wrap;
     }
 /*Følgende sektion!! Script til footeren*/
 /* Reset default browser styles */
