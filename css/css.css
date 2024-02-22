@@ -115,7 +115,7 @@
  /*FØLGENDE SECTION! Definere events */
  .flexbox {
   display: flex;
-  justify-content: space-between; /* Adjust as needed */
+  justify-content: center; /* Adjust as needed */
   align-items: flex-start; /* Adjust as needed */
   flex-wrap: wrap;
 }
