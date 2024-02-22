@@ -113,37 +113,37 @@
 
 
  /*FØLGENDE SECTION! Definere events */
- .container {
-   width: 580px;
-   height: 480px;
-  
-   display: flex;
-   flex-wrap: wrap;
-   margin-top: 30px; /* Rykker hele boxen op og ned på hjemmesiden. */
-   margin-left: 700px;
-   }
-    .box {
-      background-color: #c9e4f5;
-      font-family: 'Comic Sans MS';
-      font-weight: bold;
-      font-weight: 600;
-      width: calc(50% - 10px); /* 50% bredde med noget mellemrum, procentmæssigt */
-      height: calc(33.33% - 10px); /* 33.33% height with some spacing between boxes */
-      margin: 5px;
-      
-      box-sizing: border-box;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-
  .flexbox {
-   display: flex;
-   justify-content: space-between; /* Adjust as needed */
-   align-items: flex-start; /* Adjust as needed */
-   flex-wrap: wrap;
-    }
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  align-items: flex-start; /* Adjust as needed */
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 480px;
+  height: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px; /* Adjust as needed */
+  /*margin-left: 700px; */ /* Remove this line, as it may cause misalignment */
+}
+
+.box {
+  background-color: #c9e4f5;
+  font-family: 'Comic Sans MS';
+  font-weight: bold;
+  font-weight: 600;
+  width: calc(50% - 10px); /* 50% bredde med noget mellemrum, procentmæssigt */
+  height: calc(33.33% - 10px); /* 33.33% height with some spacing between boxes */
+  margin: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+
 /*Følgende sektion!! Script til footeren*/
 /* Reset default browser styles */
 * {
