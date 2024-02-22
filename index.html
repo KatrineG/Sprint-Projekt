@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="css/css.css">
 </head>
 
-<header class="header">
+<body>
+  <header class="header">
     <div class="align-left">
       <a href="https://bornebasketfonden.dk/" class="logo-link">
         <p>BørneBasketFonden</p>
@@ -21,8 +22,93 @@
 
     
 </header>
-<body>
-  <main>Content here</main>
+
+  <header class="Overskrift">
+<p>Events</p>
+ </header>
+
+  <main>
+<div class="flexbox">
+    <article class="container">
+      <div class="box">3x3 Turnering ved Enghaven streetball bane </div>
+      <div class="box">Skovbakken kaffe og kage dag</div>
+      <div class="box">Navitas streetbaner, drible træning</div>
+      <div class="box">Globus 1 Multibane skudtræning</div>
+      <div class="box">Viby skole multibane 1 mod 1 turnering</div>
+      <div class="box">Godsbanen pick'up</div>
+    </article>
+
+
+    <div class="maps">
+      <div style="height:420px; border:2px solid #eee; display:inline-block; overflow:hidden;">
+          <iframe src="https://www.google.com/maps/d/embed?mid=1oKMtK7qz22wY0rpG0s5ZcjlkYl64bWI&ehbc=2E312F&noprof=1"
+              width="610" height="480" style="position:relative; top:-60px; border:none;"></iframe>
+      </div>
+    
+    </div>
+  <!--https://github.com/ruyadorno/simple-slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-slider/1.0.0/simpleslider.min.js"></script>
+  <script>
+      simpleslider.getSlider({
+          container: document.getElementById('simple-slider'),
+          prop: 'left',
+          init: 1000,
+          show: 0,
+          end: -1000,
+          unit: 'px',
+          delay: 5,
+          duration: 1
+      });
+      
+  </script>
+</div>
+
+<div class="blue-square">
+  <p>Vil du læse mere om vores aktiviteter?</p>
+  <a href="#" class="button">Læs mere her</a>
+</div>
+<footer class="footer">
+  <div class="container">
+      <div class="footer-content">
+          <div class="social-media-container">
+              <span class="social-media-text">Følg os:</span>
+          </div>
+          <!-- Social media icons go here -->
+          <div class="social-media">
+              <a href="https://www.facebook.com/BorneBasketFonden"><img src="images/facebook-icon.png.png" alt="Facebook"></a>
+              <a href="https://www.youtube.com/@brnebasketfonden905"><img src="images/youtube-icon.png.png" alt="Youtube"></a>
+              <a href="https://www.instagram.com/BorneBasketFonden/"><img src="images/instagram-icon.png.png" alt="Instagram"></a>
+          </div>
+          <div class="footer-section">
+              <h3>Find os her</h3>
+              <p>Jylland: Vejlby Centervej 51, 8240 Risskov</p>
+              <p>Sjælland: Julius Andersens Vej 6, 2450 København </p>
+              <p>CVR: 36 00 79 31</p>
+          </div>
+          <div class="footer-section">
+              <h3>Kontakt os</h3>
+              <p>Jens Laulund (Direktør)</p>
+              <p>Telefon: 31 42 02 66</p>
+              <p>Mail: jens@bornebasketfonden.dk</p>
+          </div>
+          <div class="footer-section">
+              <h3>Organisationen</h3>
+              <p>Organisationen</p>
+              <p>Persondatapolitik</p>
+              <p>Regnskab og Fundats</p>
+          </div>
+          <div class="logo">
+              <img src="images/bbflogo.png" alt="Logo">
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+  </main>
   <script src="js/js.js"></script>
 </body>
 </html>
