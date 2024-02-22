@@ -18,7 +18,7 @@
 .align-left {
   margin-left: 0%; /* Juster skriftens placering til venstre */
   color: #0693e3;
- font-size: 2em;
+ font-size: 40px;
  font-weight: bold;
  font-weight: 600;
 }
@@ -118,6 +118,7 @@
   justify-content: center; /* Adjust as needed */
   align-items: flex-start; /* Adjust as needed */
   flex-wrap: wrap;
+  margin: 20px 0;
 }
 
 .container {
@@ -125,7 +126,7 @@
   height: 480px;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 30px; /* Adjust as needed */
+  margin-top: 0; /* Adjust as needed */
   /*margin-left: 700px; */ /* Remove this line, as it may cause misalignment */
 }
 
@@ -142,6 +143,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
   }
 
 /*Følgende sektion!! Script til footeren*/
@@ -257,4 +259,33 @@ body {
 
 .button:hover {
   background-color: #0571c0;
+}
+
+.maps-header {
+  width: 100%;
+  background-color:#7bdcb5;
+  color: #0693e3;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-family: 'Comic Sans MS';
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.signup-button {
+  background-color: red;
+  color: white;
+  border:0;
+  border-radius: 20px;
+  padding:8px 12px;
+  margin-top: 20px;
+}
+
+
+.signup-date {
+  font-weight: normal;
+  font-size: 12px;
+  
 }
